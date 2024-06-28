@@ -9,53 +9,52 @@
 <body>
     <aside>
         <div class="img-container">
-            <img src="" alt="logo">
+            <img src="/assets/odin-lined.png" width="100" alt="logo">
             <h1 class="company-name">ODIN</h1>
         </div>
     </aside>
     <main>
-        <div class="container">
-            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</p>
-            <p>Sign up <em>now</em> to get started</p>
-            <p>You <em>know</em> you want to</p>
+        <!-- <div class="container"> -->
+            <!-- <div class="hero-text"> -->
+                <h2>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</h2>
+                <h2>Sign up <em>now</em> to get started.</h2>
+                <h2>You <em>know</em> you want to.</h2>
+            <!-- </div> -->
             <section class="account-form">
+                <h3 class="form-title">Let's do this!</h3>
                 <form action="" method="post" id="create-account">
-                    <h3 class="form-title">Let's do this!</h3>
                     <div class="user-data">
-                        <label for="first-name">FIRST NAME
-                            <input type="text" name="first-name" id="#first-name" required>
-                        </label>
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" name="first-name" id="first-name" required>
+                        
                     </div>
                     <div class="user-data">
-                        <label for="last-name">LAST NAME
-                            <input type="text" name="last-name" id="last-name" required>
-                        </label>
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" name="last-name" id="last-name" required>
                     </div>
                     <div class="user-data">
-                        <label for="email">EMAIL
-                            <input type="email" name="email" id="email">
-                        </label>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email">
                     </div>
                     <div class="user-data">
-                        <label for="tel-number">PHONE NUMBER
+                        <label for="tel-number">PHONE NUMBER</label>
                             <input type="tel" name="phone" id="tel-number">
-                        </label>
                     </div>
                     <div class="user-data">
-                        <label for="pwd">PASSWORD
+                        <label for="pwd">PASSWORD</label>
                             <input type="password" name="password" id="pwd" required>
-                        </label>
                     </div>
                     <div class="user-data">
-                        <label for="CONFIRM PASSWORD">CONFIRM PASSWORD
-                            <input type="password" name="password" id="pwd">
-                        </label>
+                        <label for="confirm-pwd">CONFIRM PASSWORD</label>
+                            <input type="password" name="confirm-pwd" id="confirm-pwd">
                     </div>
                 </form>
-                <button type="submit" form="create-account">Create Account</button>
-                <p>Already have an account? <span><a href="">Log in</a></span></p>
             </section>
-        </div>
+            <div class="bottom-section">
+                <button type="submit" form="account-form">Create Account</button>
+                <p>Already have an account? <span><a href=""><strong>Log in</strong></a></span></p>
+            </div>
+        <!-- </div> -->
     </main>
 </body>
 </html>
